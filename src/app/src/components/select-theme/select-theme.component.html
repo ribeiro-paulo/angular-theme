@@ -1,0 +1,18 @@
+<button
+  mat-icon-button
+  [matMenuTriggerFor]="menu"
+  aria-label="Example icon-button with a menu"
+>
+  <mat-icon>more_vert</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)="changeTheme('yellow')">
+    <span>Amarelo</span>
+  </button>
+  <button mat-menu-item (click)="changeTheme('green')">
+    <span>Verde</span>
+  </button>
+  <button mat-menu-item (click)="changeTheme('dark')">
+    <span>Dark</span>
+  </button>
+</mat-menu>

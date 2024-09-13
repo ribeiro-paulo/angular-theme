@@ -1,0 +1,83 @@
+$primary: (
+  50: #fffde7,
+  100: #fff9c4,
+  200: #fff59d,
+  300: #fff176,
+  400: #ffee58,
+  500: #ffeb3b,
+  600: #fdd835,
+  700: #fbc02d,
+  800: #f9a825,
+  900: #f57f17,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: black,
+    400: black,
+    500: black,
+    600: black,
+    700: black,
+    800: black,
+    900: black,
+  )
+);
+
+
+$accent: (
+  50: #e8f5e9,
+  100: #c8e6c9,
+  200: #a5d6a7,
+  300: #81c784,
+  400: #66bb6a,
+  500: #4caf50,
+  600: #43a047,
+  700: #388e3c,
+  800: #2c6b2f,
+  900: #1b5e20,
+  A100: #b9fbc0,
+  A200: #69f0ae,
+  A400: #00e676,
+  A700: #00c853,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: white,
+    400: white,
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: rgba(black, 0.87),
+    A200: rgba(black, 0.87),
+    A400: rgba(black, 0.87),
+    A700: rgba(black, 0.87)
+  )
+);
+
+$warn: (
+  50: #fbe9e7,
+  100: #ffccbc,
+  200: #ffab91,
+  300: #ff8a65,
+  400: #ff7043,
+  500: #ff5722,
+  600: #f4511e,
+  700: #e64a19,
+  800: #d84315,
+  900: #bf360c,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: white,
+    400: white,
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  )
+);
