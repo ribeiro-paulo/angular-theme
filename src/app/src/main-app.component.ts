@@ -10,6 +10,7 @@ import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
 import { DashboardComponent } from './core/dashboard/dashboard.component';
 import { SelectThemeComponent } from './components/select-theme/select-theme.component';
+import { RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-main-app',
@@ -25,7 +26,10 @@ import { SelectThemeComponent } from './components/select-theme/select-theme.com
     AsyncPipe,
     DashboardComponent,
     SelectThemeComponent,
+    RouterOutlet,
+    RouterModule,
   ],
+  providers: [],
 })
 export class MainAppComponent {
   private breakpointObserver = inject(BreakpointObserver);
